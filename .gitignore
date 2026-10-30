@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+# Jupyter
+.ipynb_checkpoints/
+# Data (not committed)
+data/*
+!data/.gitkeep
+**/data/*
+!**/data/.gitkeep
+*.csv
+*.tsv
+*.parquet
+*.h5
+*.zip
+# Secrets
+.env
+.env.*
+!.env.example
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
